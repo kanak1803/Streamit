@@ -13,6 +13,40 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+
+    extend: {
+      colors: {
+        primaryColor: "#f7aa1d",
+        primaryColorLight: "#1e3133",
+        secondaryColor: "#121D1E",
+        paragraphColor: "#f1f1f1",
+        whiteColor: "#f1f1f1",
+      },
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "1.5rem",
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui"),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
+  daisyui: {
+    themes: [],
+  },
 };

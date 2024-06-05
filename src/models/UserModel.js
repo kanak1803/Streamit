@@ -28,7 +28,11 @@ const userSchema = new mongoose.Schema(
 
     verifyTokenExpiry: String,
 
-    avatar: { type: String, default: "default_avatar.png" },
+    avatar: {
+      type: String,
+      default:
+        "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+    },
     videos: [{ type: mongoose.Schema.Types.ObjectId, ref: "Video" }],
     likedVideos: [{ type: mongoose.Schema.Types.ObjectId, ref: "Video" }],
     comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],

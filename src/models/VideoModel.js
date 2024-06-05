@@ -1,5 +1,12 @@
 import mongoose from "mongoose";
 
+const commentSchema = new mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+  username: { type: String, required: true },
+  comment: { type: String, required: true },
+  createdAt: { type: Date, default: Date.now },
+});
+
 const videoSchema = new mongoose.Schema(
   {
     title: { type: String, required: [true, "Add title"] },
@@ -21,12 +28,13 @@ const videoSchema = new mongoose.Schema(
         "SPORTS",
         "FITNESS",
         "LIFESTYLE",
+        "TECHNOLOGY",
         "OTHER",
       ],
       default: "OTHER",
     },
     likes: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
-    comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "Comment" }],
+    comments: [commentSchema],
   },
   { timestamps: true }
 );
