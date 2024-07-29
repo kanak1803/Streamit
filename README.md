@@ -13,7 +13,8 @@ This is **StreamIt**. A video sharing and streaming platform where user can crea
   ### Prerequisites
    Make sure you have the following installed:
    - [Node.js](https://nodejs.org/) (LTS version recommended)
-   - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
+   - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+       
   **Running on your system** 
    - Clone or Download the code
    - cd streamIt ( Change directory to StreamIt ) 
