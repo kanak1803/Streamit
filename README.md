@@ -7,4 +7,8 @@ This is **StreamIt**. A video sharing and streaming platform where user can crea
 *Why i chose this project?*  
  I am fascinated by how video streaming sites like YouTube work, and I wanted to learn full-stack development in Next.js. That's why I chose this project. I strongly 
  believe in **learning by doing**.
+
+ **Installation**  
+  To get a local copy up and running, follow these simple steps:
+  
  
