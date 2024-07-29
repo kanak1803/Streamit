@@ -9,6 +9,10 @@ This is **StreamIt**. A video sharing and streaming platform where user can crea
  believe in **learning by doing**.
 
  **Installation**  
-  To get a local copy up and running, follow these simple steps:
+  To get a local copy up and running, follow these simple steps:  
+  ### Prerequisites
+   Make sure you have the following installed:
+   - [Node.js](https://nodejs.org/) (LTS version recommended)
+   - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
   
  
