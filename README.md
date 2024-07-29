@@ -8,11 +8,16 @@ This is **StreamIt**. A video sharing and streaming platform where user can crea
  I am fascinated by how video streaming sites like YouTube work, and I wanted to learn full-stack development in Next.js. That's why I chose this project. I strongly 
  believe in **learning by doing**.
 
- **Installation**  
+ ***Installation***  
   To get a local copy up and running, follow these simple steps:  
   ### Prerequisites
    Make sure you have the following installed:
    - [Node.js](https://nodejs.org/) (LTS version recommended)
    - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+  ### Clone the Repository
+   1. Open your terminal and run the following command to clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/your-repo.git
+    ``` 
   
  
