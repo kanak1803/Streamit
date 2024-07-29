@@ -14,10 +14,11 @@ This is **StreamIt**. A video sharing and streaming platform where user can crea
    Make sure you have the following installed:
    - [Node.js](https://nodejs.org/) (LTS version recommended)
    - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-  ### Clone the Repository
-   1. Open your terminal and run the following command to clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    ``` 
+  ***Running on your system 
+   - Clone or Download the code
+   - cd SteamIt
+   - npm install (Install packages)
+   - npm start (Start the project)
+   - Open your browser and go to http://localhost:3000 to see the project in action.
   
  
